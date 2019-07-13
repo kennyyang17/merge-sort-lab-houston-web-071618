@@ -25,6 +25,7 @@ function mergeSort(array) {
   } else {
     sorted = merge(mergeSort(firstHalf), mergeSort(secondHalf));
   }
+  return sorted;
 }
 
 // function mergeSort(array){
